@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bob Stillman — Contact</title>
+<meta name="description" content="Contact Bob Stillman for voice lessons, performance booking, and songwriting inquiries." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..700&family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="topbar" id="topbar">
+  <a class="brand" href="index.html">Bob <span>Stillman</span></a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</div>
+
+<nav class="menu" id="menu" aria-label="Main">
+  <ol>
+    <li><a href="index.html"><span class="idx">01</span>Home</a></li>
+    <li><a href="actor.html"><span class="idx">02</span>Actor</a></li>
+    <li><a href="voice-teacher.html"><span class="idx">03</span>Voice Teacher</a></li>
+    <li><a href="songwriter.html"><span class="idx">04</span>Songwriter</a></li>
+    <li><a class="active" href="contact.html"><span class="idx">05</span>Contact</a></li>
+  </ol>
+  <div class="menu-foot">
+    <a href="https://open.spotify.com/artist/1l2FZ3IMnWdpPYobrSwK5F" target="_blank" rel="noopener">Spotify</a>
+    <a href="https://music.apple.com/us/album/come-down-angel/134586255" target="_blank" rel="noopener">Apple Music</a>
+    <a href="mailto:hello@bobstillman.com">hello@bobstillman.com</a>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">Get in Touch</div>
+    <h1>Study, book, or <em>say hello</em>.</h1>
+    <p class="tagline">For voice lessons, performance booking, or songwriting inquiries, send a note below.</p>
+  </div>
+</header>
+
+<section style="padding-top:30px;">
+  <div class="wrap">
+    <div class="contact-grid">
+      <!-- To send mail without a server: create a free form at formspree.io and
+           replace YOUR_FORM_ID below. Until then the email link on the right works. -->
+      <form class="contact-form reveal" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="row">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Email address" required />
+        </div>
+        <select name="reason">
+          <option value="">What can Bob help with?</option>
+          <option>Voice lessons / coaching</option>
+          <option>Performance booking</option>
+          <option>Songwriting / music</option>
+          <option>Press / other</option>
+        </select>
+        <textarea name="message" placeholder="Your message" required></textarea>
+        <button class="btn btn-primary" type="submit">Send Message</button>
+      </form>
+
+      <div class="reveal">
+        <div class="subgroup"><div class="lbl">Direct</div></div>
+        <p class="lede" style="margin-bottom:18px;">Prefer email? Reach Bob at <a href="mailto:hello@bobstillman.com" style="color:var(--brass);border-bottom:1px solid var(--line);">hello@bobstillman.com</a></p>
+        <p class="placeholder-note">Replace <code>hello@bobstillman.com</code> throughout the site with Bob's real address, and the social links below with real profile URLs.</p>
+        <div class="subgroup" style="margin-top:30px;"><div class="lbl">Listen &amp; Follow</div></div>
+        <div class="credits">
+          <a class="chip" href="https://open.spotify.com/artist/1l2FZ3IMnWdpPYobrSwK5F" target="_blank" rel="noopener">Spotify</a>
+          <a class="chip" href="https://music.apple.com/us/album/come-down-angel/134586255" target="_blank" rel="noopener">Apple Music</a>
+          <a class="chip" href="#" target="_blank" rel="noopener">YouTube</a>
+          <a class="chip" href="#" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-inner">
+    <div class="foot-brand">Bob <span>Stillman</span></div>
+    <div class="foot-nav">
+      <a href="actor.html">Actor</a>
+      <a href="voice-teacher.html">Voice Teacher</a>
+      <a href="songwriter.html">Songwriter</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="copyright">&copy; <span id="yr"></span> Bob Stillman. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
