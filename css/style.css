@@ -149,7 +149,7 @@ body.menu-open .menu li a{transform:translateY(0);transition:transform .7s var(-
   content:"";position:absolute;inset:-30px -30px auto auto;width:160px;height:160px;
   background:radial-gradient(circle, rgba(230,198,132,.35), transparent 70%);filter:blur(20px);z-index:-1;
 }
-.portrait img{width:100%;border-radius:2px;filter:saturate(.96) contrast(1.02);}
+.portrait img{width:100%;height:auto;border-radius:2px;filter:saturate(.96) contrast(1.02);}
 .portrait .cap{margin-top:14px;text-align:center;font-family:var(--display);font-style:italic;color:var(--paper-faint);font-size:.92rem;}
 
 @keyframes rise{to{opacity:1;transform:none;}}
