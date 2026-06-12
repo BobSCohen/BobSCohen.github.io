@@ -293,6 +293,9 @@ footer{background:var(--ink);padding:48px 0;border-top:1px solid var(--line);}
   .contact-form .row{grid-template-columns:1fr;}
   section{padding:72px 0;}
 }
+/* force-show all hero text — animation fallback */
+.home-eyebrow,.home-name .l1,.home-name .l2,.home-roles,.home-sub,.home-cta{opacity:1;transform:none;animation:none;}
+
 @media (prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important;}
   .reveal{opacity:1;transform:none;}
